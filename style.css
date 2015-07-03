@@ -1,0 +1,20 @@
+body{
+	-moz-appearance:none;
+}
+
+.container {
+	margin-left: 25px;
+}
+.grid {
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	clear: left;
+	outline-color: #000000;
+	outline-width: medium;
+	outline-style: solid;
+}
+
+.hoveredOn{
+	background-color: #475d85;
+}
