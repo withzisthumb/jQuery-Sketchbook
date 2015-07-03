@@ -1,20 +1,36 @@
-body{
-	-moz-appearance:none;
+#button{
+	width: 100px;
+	margin: 0 auto;
+}
+
+
+#prompt {
+	width: 100px;
+	text-align: center;
 }
 
 .container {
-	margin-left: 25px;
+	width: 600px;
+	margin: auto;
+	
 }
+
 .grid {
-	height: 80px;
-	width: 80px;
 	display: inline-block;
-	clear: left;
 	outline-color: #000000;
 	outline-width: medium;
 	outline-style: solid;
+	clear: both;
 }
 
 .hoveredOn{
-	background-color: #475d85;
+	background-color:#248da1;
+}
+
+.newline{
+	clear:both;
+	display: inline-block;
+	outline-color: #000000;
+	outline-width: medium;
+	outline-style: solid;
 }
